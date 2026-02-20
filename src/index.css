@@ -1,0 +1,20 @@
+/* ✅ 适配全屏 H5：不要用 Vite 模板默认的居中布局 */
+:root {
+  font-family: ui-serif, "Songti SC", "STSong", "Noto Serif SC", serif;
+}
+
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: hidden; /* H5 防止页面滚动条干扰滑动 */
+  background: #0b0a12;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
